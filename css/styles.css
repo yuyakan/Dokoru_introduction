@@ -142,6 +142,27 @@ body{
     color:#fff;
     text-align: center;
   }
+
+/*animation*/
+
+.animate {
+  opacity: 0;
+  transition: opacity .3s, transform .3s;
+}
+.animate.slide-from-left{
+  transform: translateX(-40px);
+}
+.animate.slide-from-right{
+  transform: translateX(40px);
+}
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
+
+
+
+
   
   @media (min-width: 900px) {
     header .container{
