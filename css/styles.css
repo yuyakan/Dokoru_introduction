@@ -147,7 +147,7 @@ body{
 
 .animate {
   opacity: 0;
-  transition: opacity .3s, transform .3s;
+  transition: opacity 1.0s, transform 1.0s;
 }
 .animate.slide-from-left{
   transform: translateX(-40px);
