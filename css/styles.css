@@ -45,13 +45,13 @@ body{
 
   .gaiyou {
     margin: 64px auto;
-    padding-left: 32px;
     color: #333;
   }
   
  
   .features img{
-    width: 350px;
+    width: 300px;
+    border-radius: 24%;
   }
   
   .features > h1 {
@@ -76,7 +76,6 @@ body{
 
   .features .info{
     margin: 64px auto;
-    padding-left: 32px;
     color: #fff;
   }
 
@@ -102,7 +101,6 @@ body{
 
   .funcinfo {
     margin: 64px auto;
-    padding-left: 32px;
     color: #333;
   }
 
@@ -135,6 +133,11 @@ body{
   .members li{
     padding-bottom: 64px;
   }
+
+  .members p {
+    width: 80%;
+    margin: 0 auto;
+  }
   
   footer{
     padding: 64px 0;
@@ -164,75 +167,80 @@ body{
 
 
   
-  @media (min-width: 900px) {
-    header .container{
-      display: flex;
-      width: 800px;
-      margin: 0 auto;
-    }
-    header .info{
-      width: 60%;
-      align-self: center;
-    }
-    header .pic{
-      width: 40%;
-    }
-    .features .container{
-      width: 800px;
-      margin: 0 auto;
-    }
-
-    .features .gaiyou{
-        width: calc(50% - 32px);
-        height: 200px;
-        width: 300px;
-        padding-top: 50px;
-        text-align: left;
-      }
-  
-    .features section:nth-child(even){
-      flex-direction: row-reverse;
-    }
-
-    .features section:nth-child(even) .info {
-        padding-left: 0px;
-        /* padding-right: 64px */
-    }
-  
-    .features section{
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .features .pic{
-      width: 50%;
-    }
-
-    .features .info{
-      width: calc(50% - 32px);
-      height: 200px;
-      width: 300px;
-      padding-top: 100px;
-      text-align: left;
-    }
-
-    .funcinfo {
-      width: calc(50% - 32px);
-      height: 200px;
-      width: 300px;
-      padding-top: 100px;
-      text-align: left;
-    }
-  
-    .members ul{
-      width: 800px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .members li{
-      width: 250px;
-    }
-  
+@media (min-width: 900px) {
+  header .container{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
   }
+  header .info{
+    width: 60%;
+    align-self: center;
+  }
+  header .pic{
+    width: 40%;
+  }
+
+  /*main*/
+  .features .container{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+
+  .features .gaiyou{
+      width: calc(50% - 32px);
+      height: 200px;
+      width: 300px;
+      padding-top: 50px;
+      text-align: left;
+    }
+
+  .features section:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+  .features section:nth-child(even) .info {
+      padding-left: 0px;
+      /* padding-right: 64px */
+  }
+
+  .features section{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features .pic{
+    width: 50%;
+  }
+
+  .features .info{
+    width: calc(50% - 32px);
+    height: 200px;
+    width: 300px;
+    padding-top: 100px;
+    text-align: left;
+  }
+
+
+  .funcinfo {
+    width: calc(50% - 32px);
+    height: 200px;
+    width: 300px;
+    padding-top: 100px;
+    text-align: left;
+  }
+
+  .members ul{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .members li{
+    width: 250px;
+  }
+
+
+}
