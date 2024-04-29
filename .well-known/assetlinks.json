@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.dokoru",
+        "sha256_cert_fingerprints": [
+          "FE:C8:44:26:14:76:52:FC:D7:6A:9A:09:61:5D:E2:4D:13:54:FD:2D:AB:18:FD:12:28:EC:18:11:71:42:36:C6"
+        ]
+      }
+    }
+]
